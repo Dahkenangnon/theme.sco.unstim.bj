@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css?family=Bitter|Arvo|ato&display=swap');
+
+/*body {
+  background-image: url(https://mangetoica.com/gallery_images/homepage/background-mosaiques//bg.png);
+  display: flex;
+}*/
+
+h1,h2,p{
+  margin: 0;
+}
+
+h1{
+  font-family: 'Arvo', serif;
+  font-weight: lighter;
+  font-size: 25px;
+}
+
+.cardtitle {
+  font-family: 'Bitter', serif;
+  font-weight: bold;
+  color: rgb(71, 48, 206);
+  text-decoration: underline;
+  }
+
+p {
+  font-family: 'Lato', sans-serif;
+  display: inline-block;
+  margin: 5px 1px;
+  font-size: 15px;
+}
+
+#card {
+  border: solid 2px #000;
+  border-radius: 10px;
+  box-shadow: 1px 2px 10px #000;
+  background-color: #E9EEF2;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
+  height: 540px;
+  }
+
+#card-title {
+  padding: 5px;
+  color: #fff;
+  letter-spacing: 2px;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #2C6C73;
+}
+
+#card-footer {
+  padding: 5px;
+  color: #fff;
+  letter-spacing: 2px;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #2C6C73;
+  border-bottom-right-radius: 8px;
+  margin-top: 60px;
+}
+
+#card-id {
+  padding: 5px;
+  padding-left: 30px;
+  display: flex;
+  margin-left: 30px;
+}
+
+#card-number{
+  display: inherit;
+  margin-right: 50px;
+}
+#uni{
+  margin-top: 20px;
+}
+#car{
+margin-left: 200px;
+color: rgb(158, 42, 42);
+text-size-adjust: 10px;
+text-decoration: none;
+font-size: x-large;
+}
+
+#card-information {
+  display: flex;
+  padding: 5px;
+  margin-left: 10px;
+  
+}
+
+#card-photo {
+ /* background: url(https://www.habbo.fr/habbo-imaging/avatarimage?hb=image&user=null&headonly=0&direction=3&head_direction=3&action=&gesture=&size=l) no-repeat, #BFAE99;*/
+  background-position: center;
+  background-repeat: none;
+  border: solid 1px #000;
+  height: 200px;
+  width: 200px;
+  
+}
+
+#card-detail {
+  display: flex;
+  
+}
+
+.card-box {
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+#cardsign {
+  background: no-repeat url(https://fontmeme.com/permalink/200329/2719511201202ec68d51bbc66ea58d25.png);
+  background-position: center;
+  height: 20px;
+  width: 150px;
+}
+
+#card-code {
+  padding: 5px;
+  background-color: #fff;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+
+
+
+/*  CSS Fiche  */
+
+#fiche{
+  
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
