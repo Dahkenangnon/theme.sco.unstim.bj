@@ -81,8 +81,7 @@
                 <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities"
                     data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
-                        <a class="collapse-item" href="utilities-color.html">Ajouter Chef Sco</a>
-                        <a class="collapse-item" href="utilities-border.html">Suprimer Chef Sco</a>
+                        <a class="collapse-item" href="Chef_Sco.html">Ajouter Chef Sco</a>
                     </div>
                 </div>
             </li>
@@ -369,11 +368,96 @@
                 <!-- Begin Page Content -->
                 <div class="container-fluid">
 
-                    <!-- Page Heading -->
-                    <h1 class="h3 mb-2 text-gray-800">Tables</h1>
-                    <p class="mb-4">DataTables is a third party plugin that is used to generate the demo table below.
-                        For more information about DataTables, please visit the <a target="_blank"
-                            href="https://datatables.net">official DataTables documentation</a>.</p>
+                     <div class="container">
+
+                        <div class="card o-hidden border-0 shadow-lg my-5">
+                            <div class="card-body p-0">
+                                <!-- Nested Row within Card Body -->
+                                <div class="row">
+                                    
+                                    <div class="col-lg-12">
+                                        <div class="p-5">
+                                            <div class="text-center">
+                                                <h1 class="h4 text-gray-900 mb-4">Ajouter un nouveau étudiant</h1>
+                                            </div>
+                                            <form class="user">
+                                                <div class="form-group row">
+                                                    <div class="col-sm-6 mb-3 mb-sm-0">
+                                                        <input type="text" class="form-control form-control-user" id="exampleFirstName"
+                                                            placeholder="Nom">
+                                                    </div>
+                                                    <div class="col-sm-6">
+                                                        <input type="text" class="form-control form-control-user" id="exampleLastName"
+                                                            placeholder="Prenoms">
+                                                    </div>
+                                                </div>
+                                                <div class="form-group row">
+                                                    <div class="col-sm-6 mb-3 mb-sm-0">
+                                                        <input class="form-control form-control-user" type="date" id="example-date-input" placeholder="Date de naissance">
+                                                    </div>
+                                                    <div class="col-sm-6">
+                                                        <input type="text" class="form-control form-control-user" id="example-text-input"
+                                                            placeholder="Lieu de naissance">
+                                                    </div>
+                                                </div>
+                                                <div class="form-group row">
+                                                    <label for="exampleFormControlSelect1">Genre</label>
+                                                        <select class="form-control" id="exampleFormControlSelect1" style="height: calc(2.9em + .75rem + 2px);border-radius: 50px;display: block;">
+                                                            <option>Masculin</option>
+                                                            <option>Feminin</option>
+                                                        </select>
+                                                 </div>
+
+                                                <div class="form-group row">
+                                                    <div class="col-sm-6 mb-3 mb-sm-0">
+                                                        <input class="form-control form-control-user" type="text" id="example-text-input" placeholder="Numero de table BAC">
+                                                    </div>
+                                                    <div class="col-sm-6">
+                                                        <input type="email" class="form-control form-control-user" id="exampleInputEmail" placeholder="Addresse Email universite">
+                                                    </div>
+                                                </div>
+                                                <div class="form-group row">
+                                                    <div class="col-sm-6 mb-3 mb-sm-0">
+                                                        <input type="email" class="form-control form-control-user" id="exampleInputEmail" placeholder="Addresse Email">
+                                                    </div>
+                                                    <div class="col-sm-6">
+                                                        <input class="form-control form-control-user" type="tel"  id="example-tel-input"  placeholder="Téléphone">
+                                                    </div>
+                                                </div>
+                                                <div class="form-group row">
+                                                    <div class="col-sm-6 mb-3 mb-sm-0">
+                                                        <label for="exampleFormControlSelect1">Entite</label>
+                                                        <select class="form-control " id="exampleFormControlSelect1" style="height: calc(2.9em + .75rem + 2px);border-radius: 50px;display: block;">
+                                                            <option>ENSGMM</option>
+                                                            <option>ENSTP</option>
+                                                            <option>ENSGEP</option>
+                                                            <option>FAST DASSA</option>
+                                                            <option>FAST NATI</option>
+                                                        </select>
+                                                    </div>
+                                                    <div class="col-sm-6">
+                                                        <label for="exampleFormControlSelect1">Filiere</label>
+                                                            <select class="form-control " id="exampleFormControlSelect1" style="height: calc(2.9em + .75rem + 2px);border-radius: 50px;display: block;">
+                                                            <option>ING-GMM</option>
+                                                            <option>ING-TP</option>
+                                                            <option>ING-GEP</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="exampleFormControlFile1">Photo d'identité</label>
+                                                    <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                                                </div>
+
+                                                <a href="login.html" class="btn btn-primary btn-user btn-block">Enregistrer </a>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
 
                     <!-- DataTales Etudiant -->
                     <div class="card shadow mb-4">
@@ -425,100 +509,7 @@
                                             <td>61</td>
                                             <td>2011/04/25</td>
                                             <td>$320,800</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Garrett Winters</td>
-                                            <td>Accountant</td>
-                                            <td>Tokyo</td>
-                                            <td>63</td>
-                                            <td>2011/07/25</td>
-                                            <td>$170,750</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Ashton Cox</td>
-                                            <td>Junior Technical Author</td>
-                                            <td>San Francisco</td>
-                                            <td>66</td>
-                                            <td>2009/01/12</td>
-                                            <td>$86,000</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Cedric Kelly</td>
-                                            <td>Senior Javascript Developer</td>
-                                            <td>Edinburgh</td>
-                                            <td>22</td>
-                                            <td>2012/03/29</td>
-                                            <td>$433,060</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Airi Satou</td>
-                                            <td>Accountant</td>
-                                            <td>Tokyo</td>
-                                            <td>33</td>
-                                            <td>2008/11/28</td>
-                                            <td>$162,700</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Brielle Williamson</td>
-                                            <td>Integration Specialist</td>
-                                            <td>New York</td>
-                                            <td>61</td>
-                                            <td>2012/12/02</td>
-                                            <td>$372,000</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Herrod Chandler</td>
-                                            <td>Sales Assistant</td>
-                                            <td>San Francisco</td>
-                                            <td>59</td>
-                                            <td>2012/08/06</td>
-                                            <td>$137,500</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Rhona Davidson</td>
-                                            <td>Integration Specialist</td>
-                                            <td>Tokyo</td>
-                                            <td>55</td>
-                                            <td>2010/10/14</td>
-                                            <td>$327,900</td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- DataTales Etudiant -->
-                    <div class="card shadow mb-4">
-                        <div class="card-header py-3">
-                            <h6 class="m-0 font-weight-bold text-primary">TablesChefsco</h6>
-                        </div>
-                        <div class="card-body">
-                            <div class="table-responsive">
-                                <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
-                                    <thead>
-                                        <tr>
-                                            <th>Nom</th>
-                                            <th>Prenoms</th>
-                                            <th>Telephone</th>
-                                            <th>Email</th>
-                                            <th>Entite</th>
-                                            <th>Mot dee passe</th>
-
-                                        </tr>
-                                    </thead>
-                                    <tfoot>
-                                        <tr>
-                                            <th>Nom</th>
-                                            <th>Prenoms</th>
-                                            <th>Telephone</th>
-                                            <th>Email</th>
-                                            <th>Entite</th>
-                                            <th>Mot dee passe</th>
-                                        </tr>
-                                    </tfoot>
-                                    <tbody>
-                                        <tr>
+                                            <td>Tiger Nixon</td>
                                             <td>Tiger Nixon</td>
                                             <td>System Architect</td>
                                             <td>Edinburgh</td>
@@ -533,6 +524,13 @@
                                             <td>63</td>
                                             <td>2011/07/25</td>
                                             <td>$170,750</td>
+                                            <td>Tiger Nixon</td>
+                                            <td>System Architect</td>
+                                            <td>Edinburgh</td>
+                                            <td>61</td>
+                                            <td>2011/04/25</td>
+                                            <td>$320,800</td>
+                                            <td>55</td>
                                         </tr>
                                         <tr>
                                             <td>Ashton Cox</td>
@@ -541,6 +539,13 @@
                                             <td>66</td>
                                             <td>2009/01/12</td>
                                             <td>$86,000</td>
+                                            <td>Tiger Nixon</td>
+                                            <td>System Architect</td>
+                                            <td>Edinburgh</td>
+                                            <td>61</td>
+                                            <td>2011/04/25</td>
+                                            <td>$320,800</td>
+                                            <td>55</td>
                                         </tr>
                                         <tr>
                                             <td>Cedric Kelly</td>
@@ -549,6 +554,13 @@
                                             <td>22</td>
                                             <td>2012/03/29</td>
                                             <td>$433,060</td>
+                                            <td>Tiger Nixon</td>
+                                            <td>System Architect</td>
+                                            <td>Edinburgh</td>
+                                            <td>61</td>
+                                            <td>2011/04/25</td>
+                                            <td>$320,800</td>
+                                            <td>55</td>
                                         </tr>
                                         <tr>
                                             <td>Airi Satou</td>
@@ -557,6 +569,13 @@
                                             <td>33</td>
                                             <td>2008/11/28</td>
                                             <td>$162,700</td>
+                                            <td>Tiger Nixon</td>
+                                            <td>System Architect</td>
+                                            <td>Edinburgh</td>
+                                            <td>61</td>
+                                            <td>2011/04/25</td>
+                                            <td>$320,800</td>
+                                            <td>55</td>
                                         </tr>
                                         <tr>
                                             <td>Brielle Williamson</td>
@@ -565,6 +584,13 @@
                                             <td>61</td>
                                             <td>2012/12/02</td>
                                             <td>$372,000</td>
+                                            <td>Tiger Nixon</td>
+                                            <td>System Architect</td>
+                                            <td>Edinburgh</td>
+                                            <td>61</td>
+                                            <td>2011/04/25</td>
+                                            <td>$320,800</td>
+                                            <td>55</td>
                                         </tr>
                                         <tr>
                                             <td>Herrod Chandler</td>
@@ -573,6 +599,13 @@
                                             <td>59</td>
                                             <td>2012/08/06</td>
                                             <td>$137,500</td>
+                                            <td>Tiger Nixon</td>
+                                            <td>System Architect</td>
+                                            <td>Edinburgh</td>
+                                            <td>61</td>
+                                            <td>2011/04/25</td>
+                                            <td>$320,800</td>
+                                            <td>55</td>
                                         </tr>
                                         <tr>
                                             <td>Rhona Davidson</td>
@@ -581,149 +614,21 @@
                                             <td>55</td>
                                             <td>2010/10/14</td>
                                             <td>$327,900</td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <!-- DataTales Etudiant -->
-                    <div class="card shadow mb-4">
-                        <div class="card-header py-3">
-                            <h6 class="m-0 font-weight-bold text-primary">TablesSpecialite</h6>
-                        </div>
-                        <div class="card-body">
-                            <div class="table-responsive">
-                                <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
-                                    <thead>
-                                        <tr>
-                                            <th>Libele</th>
-                                            <th>Code</th>
-                                        </tr>
-                                    </thead>
-                                    <tfoot>
-                                        <tr>
-                                            <th>Libele</th>
-                                            <th>Code</th>
-                                        </tr>
-                                    </tfoot>
-                                    <tbody>
-                                        <tr>
-                                            <td>Tiger Nixon</td>
-                                            <td>System Architect</td>
-                                            
-                                        </tr>
-                                        <tr>
-                                            <td>Garrett Winters</td>
-                                            <td>Accountant</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Ashton Cox</td>
-                                            <td>Junior Technical Author</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Cedric Kelly</td>
-                                            <td>Senior Javascript Developer</td>
-                                            
-                                        </tr>
-                                        <tr>
-                                            <td>Airi Satou</td>
-                                            <td>Accountant</td>
-                                            
-                                        </tr>
-                                        
-                                    </tbody>
-                                </table>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- DataTales Etudiant -->
-                    <div class="card shadow mb-4">
-                        <div class="card-header py-3">
-                            <h6 class="m-0 font-weight-bold text-primary">TablesCursus</h6>
-                        </div>
-                        <div class="card-body">
-                            <div class="table-responsive">
-                                <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
-                                    <thead>
-                                        <tr>
-                                            <th>Nom</th>
-                                            <th>Prenoms</th>
-                                            <th>Date de naissance</th>
-                                            <th>Lieu de naissance</th>
-                                            <th>Sexe</th>
-                                            <th>Telephone</th>
-                                            <th>Email</th>
-                                            <th>Entite</th>
-                                            <th>Filiere</th>
-                                            <th>Libele specialite</th>
-                                            <th>Code specialite</th>
-                                            <th>Code annee etude</th>
-                                            <th>Email universite</th>
-                                        </tr>
-                                    </thead>
-                                    <tfoot>
-                                        <tr>
-                                            <th>Nom</th>
-                                            <th>Prenoms</th>
-                                            <th>Date de naissance</th>
-                                            <th>Lieu de naissance</th>
-                                            <th>Sexe</th>
-                                            <th>Telephone</th>
-                                            <th>Email</th>
-                                            <th>Entite</th>
-                                            <th>Filiere</th>
-                                            <th>Libele specialite</th>
-                                            <th>Code specialite</th>
-                                            <th>Code annee etude</th>
-                                            <th>Email universite</th>
-                                        </tr>
-                                    </tfoot>
-                                    <tbody>
-                                        <tr>
                                             <td>Tiger Nixon</td>
                                             <td>System Architect</td>
                                             <td>Edinburgh</td>
                                             <td>61</td>
                                             <td>2011/04/25</td>
                                             <td>$320,800</td>
+                                            <td>55</td>
                                         </tr>
-                                        <tr>
-                                            <td>Garrett Winters</td>
-                                            <td>Accountant</td>
-                                            <td>Tokyo</td>
-                                            <td>63</td>
-                                            <td>2011/07/25</td>
-                                            <td>$170,750</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Ashton Cox</td>
-                                            <td>Junior Technical Author</td>
-                                            <td>San Francisco</td>
-                                            <td>66</td>
-                                            <td>2009/01/12</td>
-                                            <td>$86,000</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Cedric Kelly</td>
-                                            <td>Senior Javascript Developer</td>
-                                            <td>Edinburgh</td>
-                                            <td>22</td>
-                                            <td>2012/03/29</td>
-                                            <td>$433,060</td>
-                                        </tr>
-                                        
                                     </tbody>
                                 </table>
                             </div>
                         </div>
                     </div>
 
-
-
+                    
                 </div>
                 <!-- /.container-fluid -->
 
@@ -734,7 +639,7 @@
             <footer class="sticky-footer bg-white">
                 <div class="container my-auto">
                     <div class="copyright text-center my-auto">
-                        <span>Copyright &copy; Your Website 2020</span>
+                        <span>Copyright &copy; UNSTIM 2021</span>
                     </div>
                 </div>
             </footer>
