@@ -1,0 +1,51 @@
+.fiche{
+height: 29.7cm;
+width: 21cm;
+border: solid 1px rgb(39, 37, 37);
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding: 20px;
+}
+#entete_fiche{
+    font-size: 12px;
+    border: 1px solid rgb(71, 69, 69);
+    padding-left: 57px;
+    padding-bottom: 10px;
+    padding-right: 160px;
+    margin-bottom: 10px;
+    
+}
+
+table
+{
+    border-collapse: collapse;
+}   
+#f{
+    color: black;
+    text-decoration-color: white;
+}
+td, th
+{
+    border: 1px solid black;
+}
+th{
+    text-decoration: underline;
+}
+
+#deux{
+    text-align: left;
+    border: solid 1px rgb(112, 104, 104);
+    font-size: 12px;
+}
+#un{
+    text-align: left;
+    font-size: 15px;
+    padding-right: 5px;
+}
+
+#entete{
+    margin-left: 10px;
+    
+}

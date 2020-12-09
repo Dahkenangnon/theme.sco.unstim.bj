@@ -3,12 +3,13 @@
 <head>
 	<meta class="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-	<title>Scolarite.unstim.bj</title>
-	<!-- Don't forget to add your metadata here -->
+	<title>Erreur</title>
 	<link rel='stylesheet' href='css/style.min.css' />
+	<link rel='stylesheet' href='css/main.css' />
+	<link rel='stylesheet' href='css/erreur.css' />
 </head>
 <body>
-	<!-- Hero(extended) navbar -->
+	<!-- navbar -->
 	<div class="navbar navbar--extended">
 		<nav class="nav__mobile"></nav>
 		<div class="container">
@@ -25,70 +26,36 @@
 		</div>
 	</div>
 	<!-- Hero unit -->
-	<div class="hero">
+	<div class="page__header">
 		<div class="hero__overlay hero__overlay--gradient"></div>
 		<div class="hero__mask"></div>
-		<div class="hero__inner">
+		<div class="page__header__inner">
 			<div class="container">
-				<div class="hero__content">
-					<div class="hero__content__inner" id='navConverter'>
-						<h1 class="hero__title">Bienvenue à la scolairité de l'UNSTIM</h1>
-						<p class="hero__text text-center">Vérifier l'authenticité d'une carte d'étudiant</p>
-						<form class="text-center" >
-							<div class="">
-								<div class="">
-									<input type='text' placeholder="Entrer le matricule de la carte">
-								</div>
-								<div class="">
-									<a href="carte.html" class="button hero__button">Authentifier</a>
-								</div>								
-							</div>
-						</form>
-							
-						
-						
+				<div class="page__header__content">
+					<div class="page__header__content__inner" id='navConverter'>
+						<h1 class="page__header__title">Authentification de carte d'étudiant</h1>
+						<p class="page__header__text"></p>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
+	<!-- Page content -->
 	
-	<!-- Steps -->
-	<div class="steps landing__section">
-		<div class="container">
-			<h2>Who can use this page ?</h2>
-			<p>Student of UNSTIM</p>
-		</div>
-		<div class="container">
-			<div class="steps__inner">
-				<div class="step">
-					<div class="step__media">
-						<img src="./images/undraw_designer.svg" class="step__image">
+		<div class="container"> 
+			<div id="notfound">
+				<div class="notfound">
+					<div class="notfound-404">
+						<h1>4<span>0</span>4</h1>
 					</div>
-					<h4>Programmers</h4>
-					<p class="step__text">A landing page for your open source projects. Present your solution, easily create docs.</p>
-				</div>
-				<div class="step">
-					<div class="step__media">
-						<img src="./images/undraw_responsive.svg" class="step__image">
-					</div>
-					<h4>Designers</h4>
-					<p class="step__text">A website for your own freebies. Let the world download and use your artwork.</p>
-				</div>
-				<div class="step">
-					<div class="step__media">
-						<img src="./images/undraw_creation.svg" class="step__image">
-					</div>
-					<h4>Makers</h4>
-					<p class="step__text">A great starting point for your web application. Focus on your idea and execution.</p>
+					<h2>Le numero matricule que vous avez entré n'existe pas</h2>
 				</div>
 			</div>
 		</div>
-	</div>
-	
+
 	<!-- Footer -->
 	<div class="footer footer--dark center-align">
-		<div class="container">
+		<div class="container center-align">
 			<div class="footer__inner">
 				<a href="index.html" class="footer__textLogo">Scolarite.unstim.bj</a>
 
@@ -104,13 +71,15 @@
 				</div>	
 				<div class="footer__data">
 					<div class="footer__data">
-						<div class="footer__row">Créé pour  <a href="#" target="_blank" class="footer__link">Unstim.bj</a>
+						<div class="footer__row">Créé pour <a href="unstim.bj" target="_blank" class="footer__link">Unstim.bj</a>
 					</div>
 				</div>
 				
 			</div>
 		</div>
 	</div>
+
+
 <script src='js/app.min.js'></script>
 </body>
 </html>
